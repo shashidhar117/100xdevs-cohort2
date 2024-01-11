@@ -7,7 +7,7 @@ function isPalindrome(str) {
   let newArr = []
   let secArr = []
   str = str.toLowerCase()
-  // str.split(" ").join('')
+  str.split(" ").join('')
   // str.split(",").join('')
 
   str = str.replace(/[^a-zA-Z0-9]/g, '')
